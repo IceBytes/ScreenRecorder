@@ -1,4 +1,4 @@
-# ScreenRecorder [(Preview)] (https://icebytes.github.io/ScreenRecorder/)
+# ScreenRecorder [(Preview)](https://icebytes.github.io/ScreenRecorder/)
 
 A simple screen recorder.
 
