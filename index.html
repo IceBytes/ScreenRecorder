@@ -186,7 +186,7 @@
 
                 mediaRecorder.ondataavailable = e => chunks.push(e.data);
                 mediaRecorder.onstop = e => {
-                    const blob = new Blob(chunks, { type: 'video/webm' });
+                    const blob = new Blob(chunks, { type: 'video/mp4' });
                     chunks = [];
                     const videoURL = URL.createObjectURL(blob);
                     video.src = videoURL;
