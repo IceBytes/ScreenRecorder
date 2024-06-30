@@ -2,10 +2,14 @@
     "name": "Screen Recorder",
     "short_name": "Recorder",
     "description": "A simple screen recorder.",
-    "start_url": "/",
+    "start_url": "/ScreenRecorder/",
+    "scope": "/ScreenRecorder",
     "display": "standalone",
+    "lang": "en-US", 
+    "orientation": "any",
     "background_color": "#1e1e1e",
     "theme_color": "#f9ca24",
+    "id": "screen-recorder-pwa-1.0.0"
     "icons": [
         {
             "src": "Images/icon-512x512.png",
