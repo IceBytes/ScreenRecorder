@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e1e1e 0%, #333 100%);
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(8px);
+    max-width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #f9ca24;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: #f9ca24;
+    color: #1e1e1e;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover {
+    background-color: #e1b12c;
+    transform: scale(1.05);
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+label {
+    font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+    video {
+        width: 100%;
+    }
+    label {
+        font-size: 1em;
+    }
+}
